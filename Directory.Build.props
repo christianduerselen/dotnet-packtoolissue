@@ -1,0 +1,9 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <!-- Place obj and bin directories for build in the root directory above src -->
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)\bin\$(MSBuildProjectName)\</BaseOutputPath>
+  </PropertyGroup>
+
+</Project>
